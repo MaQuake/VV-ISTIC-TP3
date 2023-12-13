@@ -59,7 +59,12 @@ Inputs are mostly int and they are multiple
 
 - Input Type: Int
 - Valid Input: Int based on day/month/year
-- Invalid Input: Int under or equals 0 for some value / number over 31
+- Invalid Input: 
+  - Int under or equals 0 for day and month
+  - number over 31 for day
+  - number over 12 for month
+  - number under 0 form year
+
 
 ### Question 2
 I tried to write testCase to cover all the code of the Date function.
